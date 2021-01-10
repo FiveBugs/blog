@@ -59,22 +59,26 @@
   
 7. 安装flameshot截图软件  
    `sudo pacman -S flameshot`  
-8. 安装网易云音乐  
+
+8. 安装simplenote，跨平台备忘录软件，支持笔记同步到云端  
+   `sudo pacman -R simplenote-electron-bin`
+
+9. 安装网易云音乐  
    `sudo pacman -S netease-cloud-music`
 
-9. 安装wonderwall壁纸软件  
+10. 安装wonderwall壁纸软件  
    `sudo snap install wonderwall`  
 
-10. 安装下载软件uget+aria2  
+11. 安装下载软件uget+aria2  
    `sudo pacman -S uget aria2`  
 
-11. 安装笔记和阅读软件 cherrytree+calibre  
+12. 安装笔记和阅读软件 cherrytree+calibre  
    `sudo pacman -S cherrytree calibre`
 
-12. 安装qv2ray，v2ray客户端软件  
+13. 安装qv2ray，v2ray客户端软件  
    `sudo pacman -S qv2ray`
 
-13. chrome浏览器启动后，默认是不能用代理的，需要在启动命令后加上如下命令  
+14. chrome浏览器启动后，默认是不能用代理的，需要在启动命令后加上如下命令  
    `--proxy-server="socks5://127.0.0.1:1089`  
    ![proxy](picture/2021-01-10_14-14.png)
    其中`127.0.0.1:1089`是自己代理软件监听的地址和端口号。
