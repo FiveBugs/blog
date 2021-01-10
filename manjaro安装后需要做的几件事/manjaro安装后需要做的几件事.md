@@ -70,3 +70,11 @@
 
 11. 安装笔记和阅读软件 cherrytree+calibre  
    `sudo pacman -S cherrytree calibre`
+
+12. 安装qv2ray，v2ray客户端软件  
+   `sudo pacman -S qv2ray`
+
+13. chrome浏览器启动后，默认是不能用代理的，需要在启动命令后加上如下命令  
+   `--proxy-server="socks5://127.0.0.1:1089`  
+   其中`127.0.0.1:1089`是自己代理软件监听的地址和端口号。
+   ![qv2ray](picture/2021-01-10_14-11.png)
