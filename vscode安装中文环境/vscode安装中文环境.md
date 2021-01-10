@@ -11,4 +11,4 @@ cscode中输入 ctrl+shift+p 接着输入 “configure display language”
 
 ![configure](./picture/2021-01-09_11-29.png)
 
-安装，重启即可
+安装，重启即可 
