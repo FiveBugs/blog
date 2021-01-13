@@ -2,11 +2,18 @@
 
 *桌面环境为xface*
 
-1. 更换国内源，选择华为的源  
-`sudo pacman-mirrors -i -c China -m rank`  
-![更换源](./picture/2021-01-10_12-07.png)  
-接着更新下缓存：  
-`sudo pacman -Syy`  
+1. 更换国内源，选择清华的源  
+   `sudo pacman-mirrors -i -c China -m rank`  
+   ![更换源](./picture/2021-01-10_12-07.png)  
+   修改pacman.conf文件，加上arch的源  
+   `sudo vi /etc/pacman.conf`  
+   在最后添加如下内容  
+   ```
+   [archlinuxcn]
+   Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
+   ```
+   接着更新下缓存：  
+   `sudo pacman -Syy`  
 
 2. 安装google拼音输入法，也可以安装搜狗输入法，只需要将fcitx-googlepinyin换成fcitx-sogoupinyin即可  
    `sudo pacman -S fcitx-im`  
